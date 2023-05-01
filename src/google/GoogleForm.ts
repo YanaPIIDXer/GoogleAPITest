@@ -8,7 +8,7 @@ export class GoogleForm {
    * 生成
    * @returns 生成されたGoogleFormのインスタンス
    */
-  static create(): GoogleForm {
+  public static create(): GoogleForm {
     throw new Error("Not Implemented");
   }
 
