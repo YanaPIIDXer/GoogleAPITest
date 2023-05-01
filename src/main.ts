@@ -3,6 +3,10 @@ import App from "./App.vue";
 
 const app = createApp(App);
 
+// Vue-Router
+import router from "./views/routes";
+app.use(router);
+
 // PrimeVue
 import PrimeVue from "primevue/config";
 import "primevue/resources/themes/lara-light-indigo/theme.css";
