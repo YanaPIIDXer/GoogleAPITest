@@ -3,6 +3,10 @@ import App from "./App.vue";
 
 const app = createApp(App);
 
+// Vuex
+import stores from "./stores";
+app.use(stores);
+
 // Vue-Router
 import router from "./views/routes";
 app.use(router);
